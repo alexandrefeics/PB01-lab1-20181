@@ -48,7 +48,7 @@ namespace WebAppPB01Lab1_AlexandreA
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Cliente}/{action=Index}/{id?}");
             });
         }
     }

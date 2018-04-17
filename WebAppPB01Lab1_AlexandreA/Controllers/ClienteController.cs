@@ -28,8 +28,7 @@ namespace WebAppPB01Lab1_AlexandreA.Controllers
         }
 
         // GET: Cliente/Details/5
-        [Route("")]
-        [Route("cliente/administracao/detalhes /{id:int}")]
+        [Route("cliente/administracao/detalhes/{id:int}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
